@@ -1,0 +1,389 @@
+body{
+    
+    overflow-x: hidden;
+    margin: 0;
+   padding: 0;
+    
+    
+   height: 1850px;
+}
+header{
+    /*      
+       position: fixed;  */
+       position: relative;
+       position: absolute;
+       padding-left: 0cm;
+       top: -0.1cm;
+       width: 100%;
+       
+      
+        
+    }
+    .homebackground{
+        position: absolute;
+        padding-top: 1.5cm;
+        height: 100px;
+        width: 1330px;
+        background-color: black;
+        position: relative;
+        position: absolute;
+        /* opacity: 5%; */
+    }
+    .order{
+        position: relative;
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        background-color: white;
+        border-radius: 100%;
+        margin-left: 74rem;
+        margin-top: 2.3rem;
+         
+        
+    }
+    .orderonline{
+        color: black;
+        margin-left: 0.8rem;
+        margin-top: 0.5rem;
+        rotate: -30deg;
+        cursor: pointer;
+    }
+    .navigation{
+        position: absolute;
+         color: white;
+         display: flex;
+         gap: 1cm;
+         margin-left: 17cm;
+         margin-top: 2cm;
+         list-style: none;
+         cursor: pointer;
+    }
+    .text1{
+        position: relative;
+        top: 3cm;
+        left: 15.5cm;
+        font-size: 2cm;
+    }
+    .button1{
+        position: relative;
+        color: white;
+        top: 6cm;
+        left: 9.5cm;
+        height: 45px;
+        border: none;
+        background-color: black;
+        border-radius: 0.2cm;
+    }
+    .button1:hover{
+        cursor: pointer;
+        background-color: rgb(180, 177, 177);
+    }
+    .div1{
+          
+       
+        position: relative;
+        border: rgb(199, 196, 196) solid 1px;
+        width: 1000px;
+        height: 100px;
+        top: 7.5cm;
+        left: 5cm;
+        /* border-radius: 0.2cm; */
+    }
+    .inp{
+        position: relative;
+        top: 0.4cm;
+        width: 700px;
+        height: 70px;
+        left: 0.3cm;
+        background-color: rgb(255, 251, 251);
+        border: 1px solid rgb(248, 247, 247);
+         border-style: groove;
+         /* border-radius: 0.2cm; */
+    }
+     
+    .button2{
+        position: relative;
+        background-color: red;
+        color: white;
+        top: 0.4cm;
+       left: 0.1cm;
+       width: 270px;
+       height: 75.9px;
+       border: none;
+       cursor: pointer;
+    }
+    .div2{
+        position: relative;
+        top: 7.9cm;
+        left: 5cm;
+        width: 700px;
+        height: 70px;
+        border: rgb(199, 196, 196) solid 1px;
+        width: 1000px;
+        height: 150px;
+
+    }
+    .text2{
+     position: relative;
+     left: 1cm;
+    }
+    .text3{
+position: relative;
+left: 18cm;
+top: -1.2cm;
+    }
+    .hr1{
+position: relative;
+top: -1cm;
+border: rgb(216, 214, 214) solid 1px ;
+
+    }
+    .button3{
+position: relative;
+color: white;
+top: 9cm;
+left: 5cm;
+height: 50px;
+width: 150px;
+background-color: red;
+cursor: pointer;
+border: none;
+    }
+    .button4{
+        position: relative;
+        color: white;
+        top: 9cm; 
+        left: 5cm;
+        height: 50px;
+        width: 250px;
+        background-color: red;
+        cursor: pointer;
+        border: none;
+    }
+    .div3{
+        position: relative;
+        border: rgb(199, 196, 196) solid 1px;
+        width: 1000px;
+        height: 290px;
+        top: 10cm;
+        left: 5cm;
+    }
+    .hr2{
+position: relative;
+top: 1.1cm;
+    }
+    .hr3{
+        position: relative;
+        top: 2.3cm;
+    }
+    ul{
+        position: relative;
+        list-style: none;
+        display: flex;
+        gap: 4cm;
+        left: 3cm;
+        top: 0.5cm;
+
+    }
+    .inp1{
+        position: relative;
+        top: 2cm;
+        width: 120px;
+        height: 40px;
+        border: none;
+        background-color: rgb(247, 242, 242);
+        left: 0.5cm;
+
+    }
+    .button5{
+        position: relative;
+        top: 2cm;
+        width: 120px;
+        height: 40px;
+        left: 0.5cm;
+        border: none;
+        cursor: pointer;
+    }
+    .inp2{
+        position: relative;
+        top: 2cm;
+        left: 15cm;
+        width: 120px;
+        height: 40px;
+        border: none;
+        background-color: rgb(247, 242, 242);
+    }
+    .button6{
+        color: white;
+        position: relative;
+        top: 2.9cm;
+        left: 0.5cm;
+        width: 130px;
+        height: 40px;
+        border: none;
+        background-color: red;
+        cursor: pointer;
+    }
+    .div4{
+        position: relative;
+        border-top: rgb(199, 196, 196) solid 1px;;
+        border-left: rgb(199, 196, 196) solid 1px;
+        border-right: rgb(199, 196, 196) solid 1px;;
+        width: 550px;
+        height: 160px;
+        top: 10cm;
+        left: 17cm
+    }
+    .text4{
+position: relative;
+top: 10cm;
+left: 19cm;
+    }
+    .text5{
+       position: relative; 
+       left: 0cm;
+        border-bottom:  rgb(199, 196, 196) solid 1px;;
+       width: 220px;
+       height: 60px;
+       text-align: center;
+    }
+    .text6{
+        position: relative;
+        left: 0cm;
+        border-bottom:  rgb(199, 196, 196) solid 1px;;
+        width: 220px;
+       height: 40px;
+       text-align: center;
+       top: -0.7cm;
+    }
+    
+    .span1{
+     position: relative;
+     left: 7cm;
+     top: -2cm;
+    }
+    .span2{
+        position: relative;
+        left: 7cm;  
+        top: -2.4cm; 
+       }
+       .button7{
+        position: relative;
+        top: 11cm;
+        left: 17cm;
+        width: 550px;
+        height: 50px;
+        background-color: red;
+        border: none;
+        cursor: pointer;
+       }
+       .text15{
+        position: relative;
+        left: 6.89cm;
+        top: 2.9cm;
+           }
+           .text16{
+            position: relative;
+        left: 4cm;
+        top: 2.9cm;
+           }
+           .text17{
+            position: relative;
+        left: 6.4cm;
+        top: 2.9cm;
+         
+           }
+           .text18{
+            position: relative;
+        left: 6cm;
+        top: 2.9cm;
+         
+           }
+           .text19{
+            position: relative;
+            
+        left: 6cm;
+        top: 2.9cm;
+           }
+           .text20{
+            position: relative;
+        left: 18cm;
+        top: -3cm;
+        
+           }
+           #facebook{
+        position: relative;
+        left: 18cm;
+        top: -2.7cm;
+           }
+           #twitter{
+        position: relative;
+        left: 18cm;
+        top: -2.7cm;
+           }
+           #envelop{
+        position: relative;
+        left: 18cm;
+        top: -2.7cm;
+           }
+           #instagram{
+            position: relative;
+        left: 18cm;
+        top: -2.7cm;
+           }
+           .text21{
+            position: relative;
+            left: 16.5cm;
+            top: -2.5cm;
+           }
+           .text22{
+            position: relative;
+            text-align: end;
+            right: 4.5cm;
+            top: -5.6cm;
+           }
+           .text23{
+            position: relative;
+            text-align: end;
+            right: 3.5cm;
+            top: -5cm;
+        
+           }
+           .text24{
+            position: relative;
+            text-align: end;
+            right: 4.5cm;
+            top: -5cm;
+           }
+           .text25{
+            position: relative;
+            text-align: end;
+            right: 4.5cm;
+            top: -5cm;
+           }
+           footer{
+            position: relative;
+            height: 340px;
+            background-color: rgb(36, 34, 34);
+            color: white;
+        top: 12cm;
+         
+            
+           }
+           .divide1{
+            position: relative;
+            left: -3.65cm;
+            width: 200px;
+            rotate: 270.6deg;
+             
+         
+           }
+           .divide2{
+            position: relative;
+            left: 7.65cm;
+            top: -2.8cm;
+            width: 200px;
+            rotate: 270.6deg;
+         
+           }
+           

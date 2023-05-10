@@ -1,0 +1,520 @@
+body{
+    position: relative;
+    position: absolute;
+   
+        overflow-x: hidden;
+     margin: 0;
+    padding: 0;
+    /* padding-left: 0.2cm; */
+    width: 100%;
+    height: 7265px;
+    background-color: white
+    
+    
+    
+}
+@keyframes example{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:100px; top:0px;}
+    50%  {background-color:blue; left:100px; top:200px;}
+    75%  {background-color:green; left:0px; top:100px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+header{
+/*      
+   position: fixed;  */
+   width: 400px;
+   padding-left: 0cm;
+   width: 1600px;
+    
+}
+.homebackground{
+    position: absolute;
+    padding-top: 1.5cm;
+    height: 100px;
+    width: 1330px;
+    background-color: black;
+    position: relative;
+    position: absolute;
+    /* opacity: 5%; */
+}
+.order{
+    position: relative;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 74rem;
+    margin-top: 2.3rem;
+     
+    
+}
+.orderonline{
+    color: black;
+    margin-left: 0.8rem;
+    margin-top: 0.9rem;
+    rotate: -30deg;
+    cursor: pointer;
+}
+.navigation{
+    position: absolute;
+     color: white;
+     display: flex;
+     gap: 1cm;
+     margin-left: 20cm;
+     margin-top: 2cm;
+     list-style: none;
+     cursor: pointer;
+}
+
+.slide{
+  
+    width: 1400px;
+    height: 700px;
+    padding-left: 0cm;
+     
+    
+}
+.left{
+    width: 20px;
+    height: 10px;
+    margin-left: 2cm;
+}
+.right{
+ width: 20px; 
+ height: 10px;  
+ margin-left: 2cm;
+}
+main{
+
+}
+.welcome{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-left: 15.4cm;
+    margin-top: 8cm;
+    rotate: 45deg;
+    color: white;
+}
+.welcome1{
+    position: absolute;
+    margin-top: 0.8cm;
+    margin-left: 0.9cm;
+    rotate: -45deg;
+    
+}
+.grill8{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    margin-left: 2cm;
+    margin-top: -5cm;
+    z-index: 1cm;
+    padding-left: 0cm;
+     
+}
+.grill9{
+   position: relative;
+    height: 600px;
+    width: 400px;
+     left: 23cm;
+     top: -9cm;
+     z-index: 1cm;
+}
+.great{
+    position: relative;
+    top: -7cm;
+    left: 10.9cm;
+}
+.the{
+    position: relative; 
+    top: -7cm;
+    left: 10.9cm;
+    color: rgba(0, 0, 0, 0.432);
+}
+.align1{
+    margin-left: 0.2cm;
+}
+.align3{
+    margin-left: 0.4cm;
+}
+.align4{
+    margin-left: 4.8cm;
+}
+.align5{
+    margin-left: 6.8cm;
+    color: black;
+}
+.align6{
+    margin-left: 6.8cm;
+}
+.g{
+    padding-left: 0cm;
+    width: 1400px;
+    height: 700px;
+    margin-top: -3cm;  
+}
+.text-animation{
+    position: relative;
+    top: -10cm;
+    left: 6cm;
+    font-size: 1.cm;
+    color: white;
+        opacity: 0;
+        animation: fade-in-out 4s ease-in-out infinite;
+     
+      }
+      
+      @keyframes fade-in-out {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+       
+          
+.chef{
+    position: relative;
+    width: 500px;
+    height: 350px;
+    top: 1cm;
+    left: 7cm;
+}
+.text1{
+    position: absolute;
+    margin-left: 22cm;
+    margin-top: -8cm;
+}
+.text2{
+    position: relative;
+    left: 22cm;
+    top: -6cm;
+    color: rgba(0, 0, 0, 0.432);
+}
+.text3{
+position: relative;
+
+    top: 1.5cm;
+   margin-left: 4.5cm;
+}
+.text4{
+    position: relative;
+    top: 1.5cm;
+margin-left: 3cm;
+}
+.text5{
+    position: relative;
+    top: 1.5cm;
+    margin-left: 3cm;
+    }
+.text6{
+    position: relative;
+    top: 1.5cm;
+        margin-left: 3cm;
+ }
+ .grill10{
+    position: relative;
+    width: 550px;
+    height: 300px;
+    margin-left: 17cm;
+    top: -8cm;
+    z-index: 1cm;
+ }
+ .text7{
+position: relative;
+top:-14cm;
+left: 25cm;
+color: white;
+ }
+ .text8{
+    position: relative;
+    top:-14cm;
+    left: 24.3cm;
+    color: white; 
+ }
+ .text9{
+    position: relative;
+    left: 11cm;
+    top: -4cm;
+    font-size: 2cm;
+ }
+ .text10{
+    position: relative;
+    left: 14cm;
+    top: -5cm;
+ }
+ .text10::before{
+    content: "";
+    display: block;
+    width: 290px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+  
+ }
+ .text10::after{
+    content: "";
+    display: block;
+    width: 290px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+ 
+  
+ }
+ .grill-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -5cm;
+    gap: -2cm;
+    padding-left: 1.1cm;
+    
+    
+ }
+ .img-sixe{
+    width: 300px;
+    height: 250px;
+    padding-top: 0.5cm;
+ }
+ .atmosphere{
+    position: relative;
+    left: 14cm;
+ }
+ .text11{
+    margin-left: 3.5cm;
+ }
+ .grill20{
+    position: relative;
+    width: 1400px;
+    height: 600px;
+     left: -4.6cm;
+     top: 2cm;
+ }
+ .text-animation1{
+    position: relative;
+    top: -7cm;
+    left: 3cm;
+    font-size: 1.6cm;
+    color: white;
+        opacity: 0;
+        animation: fade-in-out 4s ease-in-out infinite;
+      }
+      
+      @keyframes fade-in-out {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      .text12{
+        position: relative;
+        left: 4.9cm;
+        font-size: 2.5cm;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+      }
+      .span{
+        position: relative;
+        left: 8.4cm;
+      }
+      .menu{
+        position: absolute;
+        margin-top: 0.8cm;
+        margin-left: 0.9cm;
+        rotate: -45deg;
+      }
+      .menu1{
+        position: relative;
+        top: 0.5cm;
+        left: -0.8cm;
+        font-size: 0.5cm;
+      }
+      .button1{
+        position: relative;
+        top: 3cm;
+        left: 14.8cm;
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+      }
+      .text13{
+        position: relative;
+        top: 4cm;
+        left: 11.7cm;
+        font-size: 2cm;
+      }
+      .text14{
+        position: relative;
+        top: 3cm;
+        left: 14.4cm;
+        font-family: monospace;
+      }
+      .text14::before{
+        content: "";
+        display: block;
+        width: 235px;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.5);
+      
+     }
+     .text14::after{
+      content: "";
+      display: block;
+      width: 235px;
+      height: 1px;
+      background-color: rgba(0, 0, 0, 0.5);
+   
+    
+   }
+   .button2{
+    position: relative;
+    color: white;
+    top: 3.5cm;
+    left: 15cm;
+    width: 170px;
+    height: 40px;
+    background-color: rgb(105, 105, 238);
+    border: none;
+   }
+   .div1{
+    position: relative;
+    padding-left: -4cm;
+    margin-top: 5cm;
+    height: 500px;
+    background-color: rgb(233, 230, 230);
+   }
+   #inst{
+    color: white;
+    position: relative;
+    top: 3.5cm;
+    left: 14cm;
+   }
+   .text15{
+position: relative;
+left: 6.89cm;
+top: 2.9cm;
+   }
+   .text16{
+    position: relative;
+left: 4cm;
+top: 2.9cm;
+   }
+   .text17{
+    position: relative;
+left: 6.4cm;
+top: 2.9cm;
+ 
+   }
+   .text18{
+    position: relative;
+left: 6cm;
+top: 2.9cm;
+ 
+   }
+   .text19{
+    position: relative;
+    
+left: 6cm;
+top: 2.9cm;
+   }
+   .text20{
+    position: relative;
+left: 18cm;
+top: -3cm;
+
+   }
+   #facebook{
+position: relative;
+left: 18cm;
+top: -2.7cm;
+   }
+   #twitter{
+position: relative;
+left: 18cm;
+top: -2.7cm;
+   }
+   #envelop{
+position: relative;
+left: 18cm;
+top: -2.7cm;
+   }
+   #instagram{
+    position: relative;
+left: 18cm;
+top: -2.7cm;
+   }
+   .text21{
+    position: relative;
+    left: 16.5cm;
+    top: -2.5cm;
+   }
+   .text22{
+    position: relative;
+    text-align: end;
+    right: 4.5cm;
+    top: -6.5cm;
+   }
+   .text23{
+    position: relative;
+    text-align: end;
+    right: 3.5cm;
+    top: -6cm;
+
+   }
+   .text24{
+    position: relative;
+    text-align: end;
+    right: 4.5cm;
+    top: -6cm;
+   }
+   .text25{
+    position: relative;
+    text-align: end;
+    right: 4.5cm;
+    top: -6cm;
+   }
+   footer{
+    position: relative;
+    height: 340px;
+    background-color: rgb(36, 34, 34);
+    color: white;
+    margin-top: -2cm;
+ 
+    
+   }
+   .divide1{
+    position: relative;
+    left: -3.65cm;
+    width: 200px;
+    rotate: 270.6deg;
+     
+ 
+   }
+   .divide2{
+    position: relative;
+    left: 7.65cm;
+    top: -3.5cm;
+    width: 200px;
+    rotate: 270.6deg;
+ 
+   }
+   
+   
+   
+   
+  
+  
+  
+  
+  
+  
